@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/relative">
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/tvKapal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batik Air"
+        android:textSize="@dimen/textBawah"/>
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/tvJam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvKapal"
+        android:text="20.8 - 24.00"
+        android:textSize="@dimen/textAtas"/>
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/tvPesawat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvJam"
+        android:textSize="@dimen/textAtas"
+        android:text="Sukhoi"/>
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/tvLangsung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textAtas"
+        android:layout_below="@id/tvPesawat"
+        android:text="Langsung"/>
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/tvHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvPesawat"
+        android:layout_below="@id/tvJam"
+        android:textAlignment="textEnd"
+        android:textColor="@color/btnCariColor"
+        android:layout_alignParentRight="true"
+        android:text="Rp 1.1910.900/org"/>
+
+    <View
+        android:layout_below="@id/tvLangsung"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/horizontal"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

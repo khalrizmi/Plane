@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hr_margin">16dp</dimen>
+    <dimen name="hr_padding">16dp</dimen>
+    <dimen name="vr_margin">16dp</dimen>
+    <dimen name="vr_padding">16dp</dimen>
+
+    <dimen name="btn_padding">10dp</dimen>
+    <dimen name="btn_textSize">16sp</dimen>
+
+    <dimen name="textAtas">10sp</dimen>
+    <dimen name="textBawah">15sp</dimen>
+
+    <dimen name="textSearchLokasi">13sp</dimen>
+    <dimen name="textSearchBawah">13sp</dimen>
+
+    <dimen name="textHarga">15sp</dimen>
+
+    <dimen name="textRingkasanTop">15sp</dimen>
+
+    <dimen name="textPesan">14sp</dimen>
+    <dimen name="editTextPesan">10dp</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HamzPlane</string>
+
+    <string name="btnCari">Cari Tiket</string>
+
+    <string name="kotaAsal">Kota Asal</string>
+    <string name="kotaTujuan">Kota Tujuan</string>
+    <string name="tglBerangkat">Tanggal Berangkat</string>
+    <string name="Penumpang">Penumpang</string>
+    <string name="Dewasa">Dewasa</string>
+    <string name="Anak">Anak</string>
+    <string name="usiaDewasa">Di Atas 12 Thn</string>
+    <string name="usiaAnak">2 - 12 Thn</string>
+    <string name="usiaBayi">Di Bawah 2 Thn</string>
+    <string name="pesawat">Pesawat</string>
+    <string name="btnPilih">Pilih</string>
+    <string name="ringkasanPemesanan">Ringkasan Pemesanan</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="simpan">Simpan</string>
+</resources>
